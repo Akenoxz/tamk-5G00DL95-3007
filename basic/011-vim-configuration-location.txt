@@ -1,0 +1,12 @@
+#Author: Thomas Laranjo <thomas.laranjo@tuni.fi>
+#Date: 2025-01-21
+#
+#Answer to exercise "1.1 Vim configuration location"
+#
+#Anything with '#' is a comment.
+#The answer appears in line(s) of their own
+whereis vim
+which vim
+
+
+#End of file
