@@ -1,0 +1,8 @@
+# temporary files 
+*.tmp 
+*.bak 
+*~
+*[#]
+template.txt
+
+
