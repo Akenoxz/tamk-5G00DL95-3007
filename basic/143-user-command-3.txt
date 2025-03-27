@@ -1,0 +1,17 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>
+# Date: 2025-03-27
+#
+# Answer to exercise "14.3 User command 3"
+#
+# Anything with '#' is a comment.
+# The answer appears in line(s) of their own
+
+# To create the "_ps" command that uses ps(1) to display only your processes, we can add the following line to the ~/.bashrc file:
+# `alias _ps='ps -u $USER'`
+# This command lists only the processes that belong to the current user by using the "-u" option and passing the $USER variable. 
+# The $USER variable represents the username of the currently logged-in user.
+
+# After adding the line, save and close the file. 
+# To apply the changes, run: `source ~/.bashrc`
+
+# End of file

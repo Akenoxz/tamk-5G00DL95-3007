@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "9.2 Sort 2"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+sort -t, -k2,2 database.txt  
+
+# Explanation:  
+# - "-t," specifies that the comma is the field separator.  
+# - "-k2,2" sorts the database by the second field (phone number).  
+
+# End of file  

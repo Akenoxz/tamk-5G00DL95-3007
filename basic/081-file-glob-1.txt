@@ -1,0 +1,14 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "8.1 File glob 1"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+ls [A-Z]*  
+
+# Explanation:  
+# - "[A-Z]*" lists all files starting with uppercase letters.  
+
+# End of file  

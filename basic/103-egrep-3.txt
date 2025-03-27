@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "10.3 Egrep 3"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+egrep -E "[[:alpha:]]*a[[:alpha:]]+" data.txt  
+
+# Explanation:  
+# - "[[:alpha:]]*a[[:alpha:]]+" matches any first name containing the letter 'a'.  
+# - "[[:alpha:]]*" allows any characters before 'a'.  
+# - "[[:alpha:]]+" allows any characters after 'a' in the first name.  
+
+# End of file  

@@ -1,0 +1,14 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "8.3 File glob 3"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+ls *.???  
+
+# Explanation:  
+# - "*.???" lists files with any three-letter extension.  
+
+# End of file  

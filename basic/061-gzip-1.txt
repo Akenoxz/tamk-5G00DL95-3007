@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "6.1 Gzip 1"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+gzip -9 file.txt  
+
+# Explanation:  
+# - "gzip" compresses the file.  
+# - "-9" ensures the best compression level.  
+
+# End of file  

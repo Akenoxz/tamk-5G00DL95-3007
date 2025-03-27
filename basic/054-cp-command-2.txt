@@ -1,0 +1,12 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "5.4 The cp command 2"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+# Command to copy everything from ~/tmp to ~/tmp.backup  
+cp -r ~/tmp ~/tmp.backup  
+
+# End of file  

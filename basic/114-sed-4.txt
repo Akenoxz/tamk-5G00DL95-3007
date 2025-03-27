@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "11.4 Sed 4"  
+#  
+# Command to remove "Evelyn Jordan" entries.  
+
+sed -i '/Evelyn Jordan/d' names.txt  
+
+# Explanation:  
+# - '/Evelyn Jordan/' matches lines containing "Evelyn Jordan".  
+# - 'd' deletes those lines.  
+# - '-i' option edits the file in place.  
+
+# End of file  

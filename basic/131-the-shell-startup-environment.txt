@@ -1,0 +1,25 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>
+# Date: 2025-03-27
+#
+# Answer to exercise "13.1 The Shell startup environment"
+#
+# Anything with '#' is a comment.
+# The answer appears in line(s) of their own
+
+# Two environment variables from the Bash manual are $HOME and $PATH.
+
+# 1. To use and set these environment variables:
+
+# - $HOME: This variable represents the current user's home directory. It can be used by referencing $HOME in commands, e.g., `cd $HOME` takes you to the home directory. 
+# To set $HOME permanently, you can add `export HOME=/path/to/directory` to the ~/.bashrc file.
+
+# - $PATH: This variable contains a list of directories that are searched for executable files. 
+# To set $PATH permanently, you can add `export PATH=$PATH:/new/path` to the ~/.bashrc file. 
+# This will add '/new/path' to the existing list of directories in the $PATH.
+
+# 2. To store the settings permanently for the next login sessions:
+# - Open the ~/.bashrc file in an editor, for example, using `nano ~/.bashrc`.
+# - Add the export commands for $HOME and $PATH to the file.
+# - After making the changes, run `source ~/.bashrc` to apply them immediately. The changes will be stored permanently for future sessions.
+
+# End of file

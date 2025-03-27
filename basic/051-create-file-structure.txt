@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "5.1 Create file structure"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+# Create the directory structure  
+mkdir -p ~/tmp/some/dir1  
+mkdir -p ~/tmp/some/dir2/doc1  
+mkdir -p ~/tmp/some/dir2/doc2/test/more  
+mkdir -p ~/tmp/some/dir3/html  
+
+# End of file  

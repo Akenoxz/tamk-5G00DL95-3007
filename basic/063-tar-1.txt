@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "6.3 Tar 1"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+tar -czf package.tar.gz -C ~/ tmp  
+
+# Explanation:  
+# - "tar -czf" creates a tar archive and compresses it with gzip.  
+# - "-C ~/" ensures relative paths (no absolute paths).  
+# - "tmp" specifies the directory to back up.  
+
+# End of file  

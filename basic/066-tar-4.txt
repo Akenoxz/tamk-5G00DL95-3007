@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "6.6 Tar 4"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+tar -cjf package.tar.bz2 -C ~/ tmp  
+
+# Explanation:  
+# - "tar -cjf" creates a tar archive and compresses it with bzip2.  
+# - "-C ~/" ensures relative paths.  
+# - "tmp" specifies the directory to back up.  
+
+# End of file  

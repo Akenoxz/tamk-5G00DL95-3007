@@ -1,0 +1,14 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "8.5 File glob 5"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+ls | egrep '[^a-zA-Z0-9._-]'  
+
+# Explanation:  
+# - "egrep '[^a-zA-Z0-9._-]'" matches files containing characters that are not lowercase or uppercase letters, numbers, underscores, dashes, or dots.  
+
+# End of file  

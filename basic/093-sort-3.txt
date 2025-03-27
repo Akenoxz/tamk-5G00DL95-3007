@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "9.3 Sort 3"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+sort -t, -k2.5,2.9 database.txt  
+
+# Explanation:  
+# - "-t," specifies that the comma is the field separator.  
+# - "-k2.5,2.9" sorts by the local phone number field (from the 5th to the 9th character).  
+
+# End of file  

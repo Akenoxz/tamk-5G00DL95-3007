@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-27  
+#  
+# Answer to exercise "12.7 Find 8"  
+#  
+# Command to list files that have read permission for "all" under "~/tmp".
+
+find ~/tmp -type f -perm /444
+
+# Explanation:  
+# - 'find' searches for files in the specified directory.
+# - '~/tmp' is the directory to search in.
+# - '-type f' ensures only files are searched.
+# - '-perm /444' searches for files that have read permissions (4) for all user types (owner, group, others).
+
+# End of file

@@ -1,0 +1,18 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "6.4 Tar 2"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+tar -tzf package.tar.gz  
+
+# Example output:  
+# tmp/  
+# tmp/dir1/  
+# tmp/dir1/1.lst  
+# tmp/dir1/2.txt  
+# ...  
+
+# End of file  

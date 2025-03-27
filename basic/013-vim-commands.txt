@@ -1,0 +1,20 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-01-14  
+#  
+# Answer to exercise "1.3 VIM commands"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+beginning of line        = 0  
+end of line              = $  
+deleting a word          = dw  
+deleting a line          = dd  
+deleting a paragraph     = dap  
+Go to beginning of file  = gg  
+Go to end of file        = G  
+Copying line(s)          = yy  
+Copying paragraph        = yap  
+turn on/off line numbers = :set nu / :set nonu  
+
+# End of file  

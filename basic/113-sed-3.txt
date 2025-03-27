@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "11.3 Sed 3"  
+#  
+# Command to change Ike's phone number to "234-0123". Do not touch Mike's phone number.  
+
+sed -i '/Ike Deveron/ s/234-1234/234-0123/' names.txt  
+
+# Explanation:  
+# - '/Ike Deveron/' restricts the change to only lines containing "Ike Deveron".  
+# - 's/234-1234/234-0123/' replaces Ike's phone number with the new one.  
+# - '-i' option edits the file in place.  
+
+# End of file  

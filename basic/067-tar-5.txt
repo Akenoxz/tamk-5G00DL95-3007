@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "6.7 Tar 5"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+tar -xjf package.tar.bz2 tmp/dir1/1.lst  
+
+# Explanation:  
+# - "tar -xjf" extracts the tar.bz2 archive.  
+# - "tmp/dir1/1.lst" extracts only this file.  
+
+# End of file  

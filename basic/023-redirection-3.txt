@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "2.3 Redirection 3"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+# The file "2" is empty because "echo 2" sends "2" to standard output,  
+# but "2> 2" redirects standard error (file descriptor 2) to file "2".  
+# Since there is no error, nothing is written to "2".  
+
+echo 2 2> 2  
+
+# End of file  

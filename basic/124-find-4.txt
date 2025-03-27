@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-27  
+#  
+# Answer to exercise "12.4 Find 4"  
+#  
+# Command to find all *directories* that contain a character "t" and vowel "a"; in this character order.
+
+find ~/tmp -type d -name "*t*a*"
+
+# Explanation:  
+# - 'find' searches for files in the specified directory.
+# - '~/tmp' is the directory to search in.
+# - '-type d' ensures only directories are searched.
+# - '-name "*t*a*"' matches directories containing "t" followed by "a" in the name.
+
+# End of file

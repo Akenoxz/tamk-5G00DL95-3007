@@ -1,0 +1,17 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "4.1 Meta character 1"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+echo "The Result of this command is $(ls -la | wc -l) "  
+
+# Explanation:  
+# 1. "ls -la" lists all files (including hidden ones) with details.  
+# 2. "wc -l" counts the number of lines in the output.  
+# 3. "$( ... )" replaces itself with the result of the command inside.  
+# 4. "echo" prints: "The Result of this command is X", where X is the line count.  
+
+# End of file  

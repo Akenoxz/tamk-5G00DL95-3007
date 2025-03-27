@@ -1,0 +1,11 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "2.1 Redirection 1"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+date > date.txt  
+
+# End of file  

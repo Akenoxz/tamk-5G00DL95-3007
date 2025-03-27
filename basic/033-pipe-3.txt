@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "3.3 Pipe 3"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+man nano | col -b > nano-manual.txt  
+
+# Explanation:  
+# - "man nano" outputs the manual page of nano.  
+# - "col -b" removes special control characters like backspaces.  
+# - "> nano-manual.txt" saves the cleaned output into a file.  
+
+# End of file  

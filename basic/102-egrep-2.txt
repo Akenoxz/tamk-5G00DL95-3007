@@ -1,0 +1,17 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "10.2 Egrep 2"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+egrep -E "S[[:alpha:]]+[[:space:]]+[[:digit:]]*2[[:digit:]]*" data.txt  
+
+# Explanation:  
+# - "S" ensures that the last name starts with 'S'.  
+# - "[[:alpha:]]+" matches one or more alphabetic characters (the full last name).  
+# - "[[:space:]]+" matches the spaces between the name and the phone number.  
+# - "[[:digit:]]*2[[:digit:]]*" searches for the digit '2' anywhere in the phone number.  
+
+# End of file  

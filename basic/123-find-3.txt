@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-27  
+#  
+# Answer to exercise "12.3 Find 3"  
+#  
+# Command to find all files under "~/tmp" whose size is bigger than 10 bytes.
+
+find ~/tmp -type f -size +10c
+
+# Explanation:  
+# - 'find' searches for files in the specified directory.
+# - '~/tmp' is the directory to search in.
+# - '-type f' ensures only files are searched.
+# - '-size +10c' ensures only files larger than 10 bytes are found.
+
+# End of file

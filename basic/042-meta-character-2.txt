@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "4.2 Meta character 2"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+echo "Time is $(date +%T)"  
+
+# Explanation:  
+# - "date +%T" gets the current time in HH:MM:SS format.  
+# - "$( ... )" replaces itself with the output of the command inside.  
+# - "echo" prints "Time is HH:MM:SS".  
+
+# End of file  

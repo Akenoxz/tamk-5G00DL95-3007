@@ -1,0 +1,24 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "5.2 Move files"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+# Step 1: Create directories and files for starting situation  
+mkdir -p ~/tmp/dir1 ~/tmp/dir2/here  
+touch ~/tmp/dir1/1.txt ~/tmp/dir1/2.txt  
+touch ~/tmp/dir2/1.tmp ~/tmp/dir2/2.tmp  
+touch ~/tmp/dir2/here/1.lst ~/tmp/dir2/here/2.lst  
+
+# Step 2: Move files as per the end situation  
+mkdir -p ~/tmp/tmp2/dir1 ~/tmp/tmp2/dir2/here  
+mv ~/tmp/dir2/here/1.lst ~/tmp/tmp2/dir1/  
+mv ~/tmp/dir1/2.txt ~/tmp/tmp2/dir1/  
+mv ~/tmp/dir1/1.txt ~/tmp/tmp2/dir2/1.txt  
+mv ~/tmp/dir2/here/2.lst ~/tmp/tmp2/dir2/  
+mv ~/tmp/dir2/1.tmp ~/tmp/tmp2/dir2/here/  
+mv ~/tmp/dir2/2.tmp ~/tmp/tmp2/dir2/here/  
+
+# End of file  

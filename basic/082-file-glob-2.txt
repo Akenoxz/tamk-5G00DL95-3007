@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "8.2 File glob 2"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+ls *[0-9]*.{lst*,log*}  
+
+# Explanation:  
+# - "*[0-9]*" ensures there is at least one digit in the filename.  
+# - ".{lst*,log*}" matches files ending with .lst, .log, or any variations of those extensions.  
+
+# End of file  

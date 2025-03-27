@@ -1,0 +1,14 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "8.6 File glob 6"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+ls ?[0-9]??[0-9]*  
+
+# Explanation:  
+# - "?[0-9]??[0-9]*" lists files where the second and fourth characters are not numbers.  
+
+# End of file  

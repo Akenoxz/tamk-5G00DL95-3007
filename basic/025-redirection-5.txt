@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "2.5 Redirection 5"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+# "< /var/log/dpkg.log less"  
+# This command redirects the contents of "/var/log/dpkg.log" to standard input of "less".  
+# "less" then paginates the file for viewing. Equivalent to:  
+
+less /var/log/dpkg.log  
+
+# End of file  

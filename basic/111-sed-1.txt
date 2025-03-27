@@ -1,0 +1,14 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "11.1 Sed 1"  
+#  
+# Command to remove extra spaces. Every word must be followed by only one space.  
+
+sed -i 's/  */ /g' names.txt  
+
+# Explanation:  
+# - 's/  */ /g' matches two or more spaces and replaces them with a single space.  
+# - '-i' option edits the file in place.  
+
+# End of file  

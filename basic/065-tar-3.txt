@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "6.5 Tar 3"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+tar -xzf package.tar.gz -C /tmp  
+
+# Explanation:  
+# - "tar -xzf" extracts the tar.gz archive.  
+# - "-C /tmp" extracts the contents to /tmp.  
+
+# End of file  

@@ -1,0 +1,14 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "7.5 Manipulate data 4"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+nl -ba file.txt  
+
+# Explanation:  
+# - "nl -ba" numbers all lines, including blank ones.  
+
+# End of file  

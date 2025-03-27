@@ -1,0 +1,14 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "5.3 The cp command 1"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+# -v : Explain what is being done  
+# -u : Copy only if the source is newer than the destination or if destination does not exist  
+# -p : Preserve file attributes (mode, ownership, timestamps)  
+# -r : Copy directories recursively  
+
+# End of file  

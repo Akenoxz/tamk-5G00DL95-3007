@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "7.1 Extract information"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+date | cut -d' ' -f3 | cut -d'-' -f1  
+
+# Explanation:  
+# - "date" prints the current date and time.  
+# - "cut -d' ' -f3" extracts the third field (which contains the date part).  
+# - "cut -d'-' -f1" extracts the year (YYYY).  
+
+# End of file  

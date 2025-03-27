@@ -1,0 +1,19 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "3.2 Pipe 2"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+# Command:  
+echo "1 2 3" | cut -d" " -f2  
+
+# Explanation:  
+# - "echo '1 2 3'" outputs the string "1 2 3".  
+# - "cut -d' ' -f2" uses space (' ') as the delimiter (-d" ")  
+#   and selects the second field (-f2).  
+# - The output is:  
+#   2  
+
+# End of file  

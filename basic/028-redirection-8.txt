@@ -1,0 +1,13 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "2.8 Redirection 8"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+cat file > file2  
+
+# This command reads "file" and writes the output into "file2".  
+
+# End of file  

@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-27  
+#  
+# Answer to exercise "12.1 Find 1"  
+#  
+# Command to find all "*.txt" files under directory "~/tmp".
+
+find ~/tmp -type f -name "*.txt"
+
+# Explanation:  
+# - 'find' searches for files in the specified directory.
+# - '~/tmp' is the directory to search in.
+# - '-type f' ensures only files are searched.
+# - '-name "*.txt"' searches for files with a '.txt' extension.
+
+# End of file

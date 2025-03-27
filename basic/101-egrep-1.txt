@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "10.1 Egrep 1"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+egrep -E "4[[:space:]]+[[:digit:]]+" data.txt  
+
+# Explanation:  
+# - "4" ensures that the phone number starts with the digit 4.  
+# - "[[:space:]]+" matches one or more spaces.  
+# - "[[:digit:]]+" ensures that the phone number contains digits after the space.  
+
+# End of file  

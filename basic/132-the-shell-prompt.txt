@@ -1,0 +1,26 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>
+# Date: 2025-03-27
+#
+# Answer to exercise "13.2 The Shell prompt"
+#
+# Anything with '#' is a comment.
+# The answer appears in line(s) of their own
+
+# To set the prompt as specified in the exercise, we modify the PS1 variable in the ~/.bashrc file.
+
+# 1. Open the ~/.bashrc file using an editor like nano:
+#    `nano ~/.bashrc`
+# 2. Add the following line to set the prompt format:
+#    `export PS1='[\u \! \A] \w$ '`
+#    Explanation of components:
+#    - \u: displays the username
+#    - \!: displays the history number of the current command
+#    - \A: displays the current time in 24-hour HH:MM format
+#    - \w: displays the current working directory
+#    - $: displays the prompt character (usually $ for regular users)
+
+# 3. After adding the line, save and close the file.
+# 4. To apply the changes immediately, run:
+#    `source ~/.bashrc`
+
+# End of file

@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-27  
+#  
+# Answer to exercise "12.5 Find 5"  
+#  
+# Command to find all files under "~/tmp" directory that have been modified greater or equal than 2 days ago.
+
+find ~/tmp -type f -mtime +1
+
+# Explanation:  
+# - 'find' searches for files in the specified directory.
+# - '~/tmp' is the directory to search in.
+# - '-type f' ensures only files are searched.
+# - '-mtime +1' searches for files modified more than 1 day ago (i.e., at least 2 days ago).
+
+# End of file

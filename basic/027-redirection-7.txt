@@ -1,0 +1,20 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "2.7 Redirection 7"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+cat file << EOF 1> file2  
+hello  
+EOF  
+
+# Explanation:  
+# This command uses a here-document (<< EOF) to provide input to "cat".  
+# The "hello" string is passed to "cat" and redirected to "file2".  
+# However, the "1>" syntax is misplaced.  
+# The correct form should be:  
+# cat << EOF > file2  
+
+# End of file  

@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "9.1 Sort 1"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+sort -t, -k1,1r database.txt  
+
+# Explanation:  
+# - "-t," specifies that the comma is the field separator.  
+# - "-k1,1r" sorts the database by the first field (Last Name) in reverse order.  
+
+# End of file  

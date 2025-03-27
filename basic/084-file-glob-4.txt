@@ -1,0 +1,14 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "8.4 File glob 4"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+ls *.j[Pp][Gg]  
+
+# Explanation:  
+# - "*.j[Pp][Gg]" matches all spelling variations of .jpg, .Jpg, .JPG, etc.  
+
+# End of file  

@@ -1,0 +1,17 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>
+# Date: 2025-03-27
+#
+# Answer to exercise "14.2 User command 2"
+#
+# Anything with '#' is a comment.
+# The answer appears in line(s) of their own
+
+# To create the "_lsf" command that displays only files, we can add the following line to the ~/.bashrc file:
+# `alias _lsf='ls -p | grep -v /'`
+# This command lists all files in the current directory and filters out directories using "grep -v /". 
+# The "-p" option adds a slash (/) to the end of directory names, which allows us to exclude directories.
+
+# After adding the line, save and close the file. 
+# To apply the changes, run: `source ~/.bashrc`
+
+# End of file

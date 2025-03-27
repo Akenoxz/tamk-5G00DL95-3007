@@ -1,0 +1,16 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "10.4 Egrep 4"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+egrep -E "[[:space:]]+([56])[[:digit:]]+" data.txt  
+
+# Explanation:  
+# - "[[:space:]]+" ensures that there is a space before the local phone number.  
+# - "([56])" ensures that the local number starts with either '5' or '6'.  
+# - "[[:digit:]]+" matches the rest of the local number.  
+
+# End of file  

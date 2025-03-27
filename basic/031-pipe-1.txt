@@ -1,0 +1,19 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "3.1 Pipe 1"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+# The nonsense commands are:  
+# 1. cat file | ls > file  
+# 4. ls | less > cat file  
+
+# Explanation:  
+# 1. "cat file | ls > file" makes no sense because "cat file" outputs  
+#    the file’s contents, which is piped to "ls", but "ls" doesn’t take input from stdin.  
+# 4. "ls | less > cat file" is incorrect because "less" is an interactive pager  
+#    and cannot be redirected this way.  
+
+# End of file  

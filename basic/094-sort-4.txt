@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "9.4 Sort 4"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+ls -la | sort -k9  
+
+# Explanation:  
+# - "ls -la" lists files in long format.  
+# - "sort -k9" sorts the listing by the 9th field (filename).  
+
+# End of file  

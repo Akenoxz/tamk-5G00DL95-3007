@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "7.4 Manipulate data 3"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+ls -l .bash* | awk '{print $5}'  
+
+# Explanation:  
+# - "ls -l .bash*" lists files with details.  
+# - "awk '{print $5}'" prints the fifth column, which is the file size.  
+
+# End of file  

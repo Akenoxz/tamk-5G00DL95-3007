@@ -1,0 +1,14 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "7.3 Manipulate data 2"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+cut -d',' -f1,3 data.txt  
+
+# Explanation:  
+# - "cut -d',' -f1,3" extracts the 1st and 3rd fields separated by commas.  
+
+# End of file  

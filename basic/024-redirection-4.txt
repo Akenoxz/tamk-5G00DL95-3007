@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "2.4 Redirection 4"  
+#  
+# Anything with '#' is a comment.  
+# The answer appears in line(s) of their own  
+
+# The correct answer is:  
+cat qwerty   1> file.tmp   2> error.log  
+
+# This command correctly separates standard output (1) and standard error (2)  
+# into different files.  
+
+# End of file  

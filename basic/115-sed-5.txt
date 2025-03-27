@@ -1,0 +1,15 @@
+# Author: Thomas Laranjo <thomas.laranjo@tuni.fi>  
+# Date: 2025-03-01  
+#  
+# Answer to exercise "11.5 Sed 5"  
+#  
+# Command to convert the database into "LastName FirstName" format.  
+
+sed -i 's/\(.*\) \(.*\)/\2 \1/' names.txt  
+
+# Explanation:  
+# - '\(.*\) \(.*\)' captures two groups: the first and last names.  
+# - '\2 \1' swaps the groups, displaying the last name first.  
+# - '-i' option edits the file in place.  
+
+# End of file  
